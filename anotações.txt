@@ -1,0 +1,46 @@
+Para iniciarmos a porra do convite, precisamos aprender git consequentimente
+logo, os comandos para criarmos a branch-> Primeiro, vamos abrir o terminar(git) dentro do vscode, e vamos dar os seguinte comandos
+
+
+
+o comando para criar e mudar de branch é:
+
+   git checkout -b nome-da-sua-branch
+
+Para enviar ao GitHub pela primeira vez:
+ 
+
+  git push -u origin nome-da-sua-branch
+
+COMANDO PARA SUBIR COMMIT:
+
+    git add .
+
+    git push origin <nome da branch rapaz>(SEM OS SINAIS DE <>, E SEM ISSO TB)
+
+    git commit -m "blablbala"
+
+
+Agora para subir o commit devemos seguir os passos;
+
+primeiro saia da sua branch para a main com o seguinte comando no terminar(git)
+
+    git switch main     OU    git checkout main
+
+
+logo você vai atualizar a main:  (mas lembre-se de antes dar crtl + S para salvar):
+
+    git pull origin main
+
+agora vc vai emergir sua branch após subir os commits
+
+    git merge <nome-da-sua-branch>
+
+Envie as alterações para o repositório remoto
+    git push origin main
+
+
+E PARA ATUALIZAR PRA VER O QUE TEM DE NOVO NO KARAI DO CÓDIGO???
+
+dá
+        git pull origin main
