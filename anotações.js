@@ -43,4 +43,4 @@
 //E PARA ATUALIZAR PRA VER O QUE TEM DE NOVO NO KARAI DO CÓDIGO???
 //
 //dá
-//        git pull origin main
+//        git pull origin main.
